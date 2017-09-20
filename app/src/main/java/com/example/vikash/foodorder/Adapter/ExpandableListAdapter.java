@@ -74,6 +74,8 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
         ImageView plus = (ImageView) convertView.findViewById(R.id.plus);
         final ImageView minus = (ImageView) convertView.findViewById(R.id.minus);
         final TextView quantity = (TextView) convertView.findViewById(R.id.quantity);
+
+
         //  quantity.setText(childPosition);
         // txtListChild.setText(childText);
 
