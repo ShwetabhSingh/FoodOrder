@@ -57,6 +57,7 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
     public View getChildView(final int groupPosition, final int childPosition,
                              boolean isLastChild, View convertView, ViewGroup parent) {
 
+
         final String childText = (String) getChild(groupPosition, childPosition);
 
         if (convertView == null) {
